@@ -86,7 +86,48 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-.content-wrapper {
+html {
+  font-size: 1rem;
+}
+
+body {
+  font-size: 1em;
+  font-family: "Epunda Sans", sans-serif;
+  text-align: left;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  color: #0d1bac;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: "Epunda Sans", sans-serif;
+  font-size: 1.875em;
+}
+
+h3,
+h4 {
+  font-family: "Epunda Sans", sans-serif;
+  margin: 20px 0;
+  font-size: 1.125em;
+}
+
+p {
+  font-size: .875em;
+  line-height: 1.285;
+}
+
+address {
+  font-style: normal;
+}
+
+   .content-wrapper {
   width: 90%;
   margin: 50px 0;
 }
