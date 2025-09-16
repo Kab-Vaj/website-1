@@ -116,12 +116,15 @@ a {
   text-decoration: none;
 }
 
+.mission h1,
 h2 {
   font-family: "Epunda Sans", sans-serif;
   font-weight: 500;
   font-size: 1.875em;
+  margin: 0;
 }
-
+.form-description h2,
+.faq h2,
 h3,
 h4 {
   font-family: "Epunda Sans", sans-serif;
@@ -275,6 +278,7 @@ input[type=text] {
   color: #2a423a;
   font-style: italic;
   padding: 1em;
+  margin-top: 10px;
 }
 
 input[type=button] {
@@ -511,11 +515,14 @@ input[type=button] {
     margin: 100px 0;
   }
 
+  .mission h1,
+  . faq h1,
   h2 {
     font-size: 2.25em;
     line-height: 1.333;
   }
 
+  .form-description h2,
   h3 {
     font-size: 1.5em;
     line-height: 1.25;
@@ -627,6 +634,7 @@ input[type=button] {
     margin-bottom: 0;
   }
 
+  footer h3,
   footer h4 {
     font-size: 1.5em;
     margin-bottom: 40px;
@@ -634,6 +642,11 @@ input[type=button] {
 
   footer p {
     line-height: 1.285;
+  }
+
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
   }
 
   footer .copyright {
@@ -761,6 +774,7 @@ input[type=button] {
     width: 42%;
   }
 
+  footer h3,
   footer h4 {
     font-size: 1.875em;
   }
